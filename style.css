@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/The_Fort_of_Nahan%2C_c.1850.jpg) deepskyblue;
+    background-size: cover;
+    margin: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: deeppink;
+    text-shadow: 4px 4px 0 #000;
+  }
+  
+  button {
+    font-size: 2em;
+    margin-top: 1em;
+    padding: .3em .7em;
+    background: blue;
+    border: 3px solid lightblue;
+    color: lightblue;
+    border-radius: 8px;
+    
+    &:hover {
+      color: white;
+      border-color: white;
+    }
+  
+    &:focus {
+      outline:none;
+    }
+  }
+  #output {
+    margin-top: 2em;
+    background: (hsla(360, 100%, 100%, .6));
+    padding: 1em;
+    font-size: 2em;
+    font-style: italic;
+    border-radius: 20px;
+  }
+  .content{
+    text-align: right;
+  }
+  .content h1{
+    font-size: 170px;
+    color: black;
+    font-weight: 600;
+  }
+  .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+  }
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+   
+
+
+
